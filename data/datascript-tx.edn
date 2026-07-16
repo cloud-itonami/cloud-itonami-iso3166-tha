@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "tha.copyright-act-be-2537"
+           :title "Copyright Act B.E. 2537 (1994)"
+           :jurisdiction "THA"
+           :kind :law
+           :law-number "B.E. 2537"
+           :url "https://www.wipo.int/wipolex/edocs/lexdocs/laws/en/th/th001en_1.pdf"
+           :url-provenance :official-wipo-lex-mirror
+           :enacted-date "1994-12-09"
+           :retrieved-at "2026-07-16"
+           :topic [:intellectual-property]}
+ #:statute{:id "tha.personal-data-protection-act-be-2562"
+           :title "Personal Data Protection Act B.E. 2562 (2019)"
+           :jurisdiction "THA"
+           :kind :law
+           :law-number "B.E. 2562"
+           :url "https://www.mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-"
+           :url-provenance :official-mdes-go-th
+           :enacted-date "2019-05-24"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
