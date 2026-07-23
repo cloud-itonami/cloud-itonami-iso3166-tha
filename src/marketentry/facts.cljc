@@ -11,13 +11,7 @@
           :rep-provenance "https://www.gprocurement.go.th/"
           :corporate-number-owner-authority "DBD / Revenue Department"
           :corporate-number-legal-basis "Company registration number / tax ID"
-          :corporate-number-provenance "https://www.dbd.go.th/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "SGP" {:name "Singapore" :owner-authority "GeBIZ" :legal-basis "GFR" :national-spec "GeBIZ" :provenance "https://www.gebiz.gov.sg/"
-          :required-evidence ["UEN record" "GeBIZ registration" "GST record" "Authorized-representative record"]}
-   "VNM" {:name "Vietnam" :owner-authority "MST e-GP" :legal-basis "Procurement Law" :national-spec "muasamcong" :provenance "https://muasamcong.mpi.gov.vn/"
-          :required-evidence ["MST record" "e-GP registration" "Business registration" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.dbd.go.th/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
